@@ -1,0 +1,20 @@
+#slider{
+	margin-top:-400px;
+	margin-right:100px;
+	float:right;
+	width:400px;
+}
+
+#slider ul li{
+	list-style:none;
+	text-align:right;
+}
+
+#slider ul li a{
+	color: #FFF;
+	font-size:32px;
+}
+
+#slider ul li p{
+	color: #FFF;
+}

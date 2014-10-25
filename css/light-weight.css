@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family:"Justus-Versalitas";
+	src: url(../../fonts/Justus-Versalitas/Justus-Versalitas.ttf) format("truetype");
+}
+
+@font-face {
+	font-family:"NeutraText-LightSCAlt";
+	src: url(../../fonts/NeutraText-LightSCAlt/NeutraText-LightSCAlt.otf) format("opentype");
+}
+
+@font-face {
+	font-family:"NeutraTextTF-Light";
+	src: url(../../fonts/NeutraTextTF-Light/NeutraTextTF-Light.otf) format("opentype");
+}
+
+.clear:after {
+	content: ""; display: block; clear: both;
+}
+
+.clear {  }
+
+body {
+	margin:0 0 0 0;
+	background-color:#000;
+	background-image:url(../images/macbookair2.jpg);
+	background-size: 40%;
+	background-repeat:no-repeat;
+	background-position:0% 75%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body p{
+	font-family: "NeutraTextTF-Light";
+	color:#666;
+	font-size:1.2em;
+}
+
+h1{
+	font-family: "Justus-Versalitas", Georgia, "Times New Roman", Times, serif;
+	margin-top:40px;
+}
+
+h2{
+	font-family: "Justus-Versalitas", Georgia, "Times New Roman", Times, serif;
+}
+
+#outer-container{
+	background-image:url(../images/nav-background-light-weight.jpg);
+	background-repeat:repeat-x;
+	margin: 0 0 0 0;
+}
+
+#container {
+	width: 800px; margin: 0 auto;
+}
+
+header{
+	min-height:36px;
+}
+
+#logo{
+	float:left;
+	width:200px;
+}
+
+nav{
+	font-family: "Justus-Versalitas", Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	font-size: 1.2em;
+	padding-top:4px;
+	width:500px;
+	float:right;
+}
+
+nav ul{
+	margin: 0;
+	padding:0;
+	list-style:none;
+}
+
+nav ul li{
+	display: inline;
+	word-spacing: -5px;
+	padding: .2em 1em;
+}
+
+nav ul li a{
+	color:#DDD;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color:#FFF;
+	border-bottom: 3px solid #FFF;
+	padding-bottom: 5px;
+}
+
+#outside-content{
+	width:1100px;
+	height:720px;
+	margin-left:-150px;
+	background-image:url(../images/home-page-background.jpg);
+	background-repeat:repeat-x;
+}
+
+#content{
+	width:950px;
+	
+}
+
+#banner{
+	width:100%;
+	float:right;
+	margin:80px 210px 0 0;
+}
+
+#banner p{
+	font-family: "Justus-Versalitas", Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+	color:#FFF;
+	line-height:30px;
+	font-size:58px;
+}
+
+#content-header{
+	width:580px;
+	min-height:170px;
+	float:right;
+	margin-right:20px;
+}
+
+#content-header h1{
+	font-family: "NeutraText-LightSCAlt";
+	font-weight:100;
+	color:#CCC;
+	text-align:right;
+	font-size:4em;
+	margin:62px 0 5px 0;
+	border-bottom: #888 solid 1px;
+}
+
+#content-header .post-meta{
+	border-top:#888 solid 1px;
+}
+
+#content-header .post-meta p{
+	font-family: "NeutraTextTF-Light";
+	color:#888;
+	text-align:right;
+	font-size:1em;
+	padding: 10px 0 0 0;
+	float:right;
+	width:30%;
+	margin:0;
+	padding: 15px 1px 10px 0;
+}
+
+#content-header .post-meta p:last-child{
+	border-right:#888 solid 1px;
+	padding-right:20px
+}
+
+#content{
+	margin: 230px 0 0 0;
+	width:100%;
+	min-height:550px;
+}
+
+#content-text {
+}
+
+#content-text p:first-child{
+	width:60%;
+	float:left;
+}
+
+#content-text p:nth-child(2){
+	width:25%;
+	height:145px;
+	float:right;
+	padding:30px;
+	background-color:#CCC;
+	color:#333;
+	font-size:32px;
+	font-weight:100;
+	margin-top:20px;
+	margin-right:20px;
+}
+
+#content-text p{
+	width:55%;
+	float:right;
+	margin-left:10px;
+	padding-right:20px;
+	font-size:1em;
+	line-height:1.2em;
+	color:#BBB;
+	margin-bottom:30px;
+}
+
+#content h2 a{
+	color:#666;
+	text-decoration:none;
+}
+
+#content h2 a:hover{
+	color:#333;
+	border-bottom:#333 solid 3px;
+	padding-bottom:5px;
+}
+
+footer{
+	background-image:url(../images/footer.png);
+	background-repeat:no-repeat;
+	min-height:140px;
+	margin-left:-70px;
+}
+
+footer p{
+	font-family: "NeutraTextTF-Light", Helvetica Neue, Helvetica, Trebuchet MS, sans-serif;
+	color:#999;
+	font-size:0.8em;
+	padding:20px 0 0 70px;
+}
